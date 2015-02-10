@@ -1,0 +1,23 @@
+Information wanted:
+
+How much time did you need?
+Uppskattningsvis drygt 10h.
+
+Where there any challanges?
+*Positioning i css av elementen. Är inte van att göra en layout bestående mestadels av bilder. Sen vet jag att css är den delen jag är svagast på av de språk som användes.
+
+*Man får väl alltid titta lite på hur Ajax svaret ser ut och få det "rätt" json format.
+
+*Allmänt hur man ska planera och strukturera sidan. 
+
+*Försökte få Facebook-delningen att fungerar på localhost då det skulle gå, men man har väl sin sajt online vid publiceringen så nöjde mig med att länka till en annan sida.
+
+
+What methods did you use and why?
+
+* Använde Jquery UI som Drag n drop eftersom html5 inte stöds lika bra överallt.
+* Samma för att animera runt robot och lådan för det kändes enklast och naturligast, här hittade ju i princip färdig kod på nätet som gick att använda.
+* Popup fönstren blev vanliga html som döljs och visas, här kanske det hade vart mer passande med Jquery Dialog, eller nån plugin som lightbox eller en jag använde senast som hette Bootbox.
+* MySql + PDO För att det va enklast, va väl lite onödigt att använda ajax men hade det fräscht i minnet så gick rätt snabbt.
+* Angående injection har jag inte tittat på det, det kan ju hända att det tas om hand om ändå, men skulle såklart kolla upp det om det var ett riktig projekt.
+* Övriga saker talar för sig själv t.ex. FB-API, fonter mm.
